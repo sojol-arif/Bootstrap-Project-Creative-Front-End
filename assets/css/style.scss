@@ -1,0 +1,75 @@
+$primary: #6D23FF;
+$secondary: #3CB265;
+$heading-color: #202020;
+$text-color: #202020;
+$bg-color: #F9F9F9;
+$white: #fff;
+$black: #000000;
+
+$transition: all .3s ease;
+
+body{
+    font-family: 'Space Grotesk', sans-serif;
+    color: $text-color;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.25em;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.25em;
+}
+
+h3{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.btn-a{
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid $primary;
+    padding: 12px 36px;
+    display: inline-block;
+    color: $primary;
+    cursor: pointer;
+    transition: $transition;
+    &:hover{
+        background-color: $primary;
+        color: $white;
+    }
+}
+
+.container{
+    max-width: 1170px;
+}
+
+.ml-auto{
+    margin-left: auto;
+}
+
+/* Navbar CSS */
+.navbar{
+    .container{
+        max-width: 1340px;
+    }
+    .navbar-collapse{
+        flex-grow: unset;
+    }
+}
